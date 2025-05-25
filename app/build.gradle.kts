@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.implementation
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -62,5 +64,5 @@ dependencies {
     implementation("androidx.compose.material:material-icons-extended:1.6.7")
 
 
-
+    
 }

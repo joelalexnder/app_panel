@@ -16,6 +16,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import kotlinx.coroutines.delay
+import com.example.app_panel.R
 
 @Composable
 fun SplashScreen(navController: NavController){
@@ -34,7 +35,7 @@ fun SplashScreen(navController: NavController){
     ){
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             //imagen del logo de la app
-            //Image(painter = painterResource(id = R.drawable.logo), contentDescription = "Logo")
+            Image(painter = painterResource(id = R.drawable.logo), contentDescription = "Logo")
 
             Text(
                 text = "APP Panel",
