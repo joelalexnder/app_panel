@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.app_panel.screens.ConnectScreen
 import com.example.app_panel.screens.SplashScreen
 
 @Composable
@@ -13,6 +14,7 @@ fun AppNavegation(navController: NavHostController){
             SplashScreen(navController)
         }
         composable("connect"){
+            ConnectScreen(navController)
 
         }
 
